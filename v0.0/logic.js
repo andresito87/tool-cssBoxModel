@@ -16,6 +16,7 @@ function format() {
     [
         `background-color`,
         `border-style`,
+        `border-color`,
         `outline-style`,
         `outline-color`].map(property => {
             style[property] = document.getElementById(property).value;
